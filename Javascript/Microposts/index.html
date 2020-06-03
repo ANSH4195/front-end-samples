@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>My JavaScript App</title>
+</head>
+<body>
+  <nav class="navbar mb-3 navbar-dark bg-primary">
+    <div class="container">
+      <a href="#" class="navbar-brand">MicroPosts</a>
+    </div>
+  </nav>
+
+  <div class="container postsContainer">
+    <div class="card card-body card-form">
+      <h1>Say Something</h1>
+      <p class="lead">What's on your mind?</p>
+      <div class="form-group">
+        <input type="text" placeholder="Post Title" class="form-control" id="title">
+      </div>
+      <div class="form-group">
+        <textarea type="text" placeholder="Post Body" class="form-control" id="body"></textarea>
+      </div>
+      <input type="hidden" value="" id="id">
+      <button class="post-submit btn btn-primary btn-block">Post It</button>
+      <span class="from-end"></span>
+    </div>
+    <br>
+    <di id="posts"></di>
+  </div>
+
+  <footer class="mt-5 p-3 text-center">
+    MicroPosts &copy;
+  </footer>
+  
+  <script src="build/app.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+#navbar h1{
+    float: none;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li{
+    /* Make the name same as in style css to overwrite */
+    float: none;
+}
+
+#navbar ul li a{
+    padding: 5px;
+    border-bottom: #444 2px solid;
+}
+
+/* Showcase */
+#showcase h1{
+    line-height: 1.5em;
+    font-size: 40px;
+}
+
+.showcase-content{
+    padding-top: 150px;
+}
+
+/* Home info */
+#home-info{
+    height: 450px;
+}
+
+#home-info .info-img img{
+    display: none;
+}
+
+#home-info .info-content{
+    float: none;
+    width: 100%;
+}
+
+/* boxes */
+.box{
+    float: none;
+    width: 100%;
+}
+
+
+/* ----------------------------- */
+/* About page */
+#main-about{
+    padding: 15px 30px;
+}
+
+#inside-about{
+    float: none;
+    width: 100%;
+}
+
+#inside-about h1{
+    text-align: center;
+}
+
+#main-about img{
+    margin-top: 30px;
+    width: 100%;
+    float: none;
+}
+
+/* Review section */
+#review-section h2{
+    padding: 40px 20px;
+    font-size: 30px;
+}
+
+/* Footers */
+.footer{
+    text-align: center;
+    padding: 20px;
+}
+
+.footer div{
+    float: none;
+    width: 100%;
+    border-bottom: 2px #444 solid;
+}
